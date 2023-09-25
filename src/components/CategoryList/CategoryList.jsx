@@ -5,18 +5,20 @@ import Category from "../Category/Category";
 
 const CategoryList = () => {
     const [categories, setCategories] = useState([]);
-    
-    useEffect(() =>{
+
+    useEffect(() => {
         fetch('donations.json')
-        .then(res => res.json())
-        .then(data => setCategories(data));
-    } 
-    , [])
+            .then(res => res.json())
+            .then(data => setCategories(data));
+    }
+        , [])
     return (
-        <div>
-            {
-                categories.map(categoryCard => <Category key={categoryCard.id} categoryCard={categoryCard}></Category>)
-            }
+        <div className="mx-7 my-20">
+            <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-4 lg:grid-cols-4 lg:gap-4">
+                {
+                    categories.map(categoryCard => <Category key={categoryCard.id} categoryCard={categoryCard}></Category>)
+                }
+            </div>
         </div>
     );
 };
