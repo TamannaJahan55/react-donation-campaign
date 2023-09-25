@@ -7,6 +7,7 @@
         "color_for_category_bg": "rgba(0, 82, 255, 0.20)",
         "color_for_card_bg": "#0052FF26",
         "color_for_text_and_button_bg": "#0052FF",
+        "img_rectangle": "https://i.ibb.co/zSjD6X0/Rectangle-4284.png",
         "description": "Support the purchase of essential medical supplies for community clinics. Your donation will help ensure that healthcare providers have access to the tools they need to save lives and provide quality care. From bandages to life-saving medications, your contribution will make a significant impact on the well-being of those in need. Join us in making healthcare more accessible and reliable for everyone. Together, we can build healthier communities and a brighter future for all.",
         "price": 290.00
     },
@@ -18,6 +19,7 @@
         "color_for_category_bg": "rgba(255, 68, 74, 0.20)",
         "color_for_card_bg": "#FF444A26",
         "color_for_text_and_button_bg": "#FF444A",
+        "img_rectangle": "https://i.ibb.co/zRgLC5p/Rectangle-4288.png",
         "description": "Provide educational scholarships to bright students from disadvantaged backgrounds. Your generous support will open doors to higher education for talented young individuals who might not have had the opportunity otherwise. These scholarships empower students to pursue their dreams, unlock their potential, and become leaders of tomorrow. Your contribution not only changes individual lives but also strengthens our communities and society as a whole. Join us in shaping a brighter future through education.",
         "price": 290.00
     },
@@ -29,6 +31,7 @@
         "color_for_category_bg": "rgba(121, 194, 63, 0.20)",
         "color_for_card_bg": "#79C23F26",
         "color_for_text_and_button_bg": "#79C23F",
+        "img_rectangle": "https://i.ibb.co/CKpjBXG/Rectangle-4287.png",
         "description": "Help us collect warm clothing for those in need during the winter season. Your contribution will provide comfort and warmth to individuals and families facing harsh cold weather. With your support, we can distribute coats, hats, gloves, and blankets to vulnerable populations, ensuring they stay safe and cozy throughout the winter. Join our warm clothing drive and make a difference in the lives of those less fortunate. Together, we can spread warmth and kindness in our community.",
         "price": 290.00
     },
@@ -40,6 +43,7 @@
         "color_for_category_bg": "rgba(248, 113, 71, 0.20)",
         "color_for_card_bg": "#F8714726",
         "color_for_text_and_button_bg": "#F87147",
+        "img_rectangle": "https://i.ibb.co/VwrWX8H/Rectangle-4287-2.png",
         "description": "Support the expansion of a local food pantry to serve more families in your community. Your donation will help us stock shelves with nutritious food items, ensuring that no one in our community goes hungry. Together, we can alleviate food insecurity and provide a brighter future for individuals and families in need. Join us in the fight against hunger and make a lasting impact on the lives of those facing food challenges.",
         "price": 290.00
     },
@@ -51,6 +55,7 @@
         "color_for_category_bg": "rgba(248, 113, 71, 0.20)",
         "color_for_card_bg": "#F8714726",
         "color_for_text_and_button_bg": "#F87147",
+        "img_rectangle": "https://i.ibb.co/VwrWX8H/Rectangle-4287-2.png",
         "description": "Provide nutritious meals to elderly residents in assisted living facilities. Your donation will ensure that seniors receive the nourishment they need for a healthy and fulfilling life. Join our mission to improve the well-being of our senior community members and make their golden years more enjoyable.",
         "price": 290.00
     },
@@ -62,6 +67,7 @@
         "color_for_category_bg": "rgba(121, 194, 63, 0.20)",
         "color_for_card_bg": "#79C23F26",
         "color_for_text_and_button_bg": "#79C23F",
+        "img_rectangle": "https://i.ibb.co/CKpjBXG/Rectangle-4287.png",
         "description": "Collect winter clothing for children to keep them warm during the cold months. Your donation will ensure that kids in need have access to winter coats, hats, and gloves, allowing them to stay safe and comfortable throughout the winter season. Join our effort to make winter warmer for children in our community and bring smiles to their faces.",
         "price": 290.00
     },
@@ -73,6 +79,7 @@
         "color_for_category_bg": "rgba(255, 68, 74, 0.20)",
         "color_for_card_bg": "#FF444A26",
         "color_for_text_and_button_bg": "#FF444A",
+        "img_rectangle": "https://i.ibb.co/zRgLC5p/Rectangle-4288.png",
         "description": "Support a digital literacy program to empower individuals with essential technology skills. Your contribution will provide training and access to digital resources for underserved communities, bridging the digital divide. With your help, individuals will gain valuable skills for the digital age, improving their job prospects and overall quality of life. Join us in promoting digital inclusion and creating a more equitable society.",
         "price": 290.00
     },
@@ -84,6 +91,7 @@
         "color_for_category_bg": "rgba(0, 82, 255, 0.20)",
         "color_for_card_bg": "#0052FF26",
         "color_for_text_and_button_bg": "#0052FF",
+        "img_rectangle": "https://i.ibb.co/zSjD6X0/Rectangle-4284.png",
         "description": "Fund mobile health clinics to bring medical care to remote areas. Your donation will enable us to reach underserved communities, providing essential healthcare services where they are needed most. From basic check-ups to life-saving treatments, your support will save lives and improve the well-being of countless individuals. Join us in making healthcare accessible to all, regardless of their location. Together, we can create healthier and happier communities.",
         "price": 290.00
     },
@@ -95,6 +103,7 @@
         "color_for_category_bg": "rgba(0, 82, 255, 0.20)",
         "color_for_card_bg": "#0052FF26",
         "color_for_text_and_button_bg": "#0052FF",
+        "img_rectangle": "https://i.ibb.co/zSjD6X0/Rectangle-4284.png",
         "description": "Support a vaccination outreach program to protect vulnerable populations. Your contribution will help us reach underserved areas and ensure that individuals have access to life-saving vaccines. Join our efforts to promote public health and save lives.",
         "price": 290.00
     },
@@ -106,6 +115,7 @@
         "color_for_category_bg": "rgba(255, 68, 74, 0.20)",
         "color_for_card_bg": "#FF444A26",
         "color_for_text_and_button_bg": "#FF444A",
+        "img_rectangle": "https://i.ibb.co/zRgLC5p/Rectangle-4288.png",
         "description": "Revitalize a local library to provide a better learning environment for students. Your donation will help transform a library into a vibrant, educational hub for our community. Join us in promoting literacy and lifelong learning for all.",
         "price": 290.00
     },
@@ -117,6 +127,7 @@
         "color_for_category_bg": "rgba(121, 194, 63, 0.20)",
         "color_for_card_bg": "#79C23F26",
         "color_for_text_and_button_bg": "#79C23F",
+        "img_rectangle": "https://i.ibb.co/CKpjBXG/Rectangle-4287.png",
         "description": "Organize a clothing collection drive to provide clothing to those in need. Your contribution will help us gather clothing items for individuals and families facing challenging circumstances. Join our community effort to make a positive impact and provide clothing essentials to those who need them the most.",
         "price": 290.00
     },
@@ -128,6 +139,7 @@
         "color_for_category_bg": "rgba(248, 113, 71, 0.20)",
         "color_for_card_bg": "#F8714726",
         "color_for_text_and_button_bg": "#F87147",
+        "img_rectangle": "https://i.ibb.co/VwrWX8H/Rectangle-4287-2.png",
         "description": "Join our School Lunch Program and make a significant impact on the lives of children in under-served communities. Your generous donation help ensure that every child has access to daily nutritious meals at school. Many children in these communities struggle with food insecurity, and your support will provide them with the nourishment they need to thrive both academically and physically. By contributing to this program, you are investing in the future of these young minds, helping them grow, learn, and reach their full potential.",
         "price": 290.00
     }
