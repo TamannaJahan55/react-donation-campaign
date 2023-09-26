@@ -13,7 +13,7 @@ const CategoryList = () => {
     }
         , [])
     return (
-        <div className="mx-7 my-20">
+        <div className="max-w-7xl mx-14 my-20">
             <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-4 lg:grid-cols-4 lg:gap-4">
                 {
                     categories.map(categoryCard => <Category key={categoryCard.id} categoryCard={categoryCard}></Category>)
