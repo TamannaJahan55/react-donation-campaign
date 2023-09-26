@@ -9,7 +9,6 @@ const Donation = () => {
     console.log(donations)
 
     const [donatedCategory, setDonatedCategory] = useState([]);
-    const [displayDonations, setDisplayDonations] = useState([]);
     const [dataLength, setDataLength] = useState(4);
 
 
@@ -18,7 +17,6 @@ const Donation = () => {
         if (donations.length > 0) {
             const donatedProject = donations.filter(donation => storedDonationIds.includes(donation.id))
             setDonatedCategory(donatedProject);
-            setDisplayDonations(donatedProject)
             console.log(donatedProject)
         }
     }
@@ -30,15 +28,9 @@ const Donation = () => {
             <div className="grid grid-cols-1 gap-3 md:grid-cols-1 md:gap-3 md:ml-40 lg:grid-cols-2 lg:gap-6">
                 {   
                     
-                    displayDonations ? donatedCategory.slice(0, dataLength).map((categoryDonated) => (
-                        <DonatedCard key={categoryDonated.id} categoryDonated={categoryDonated}></DonatedCard>
-                    ))
-
-                        :
-
-                        donatedCategory.map((categoryDonated) => (
-                            <DonatedCard key={categoryDonated} categoryDonated={categoryDonated}></DonatedCard>
-                        ))
+                    
+                    donatedCategory.slice(0, dataLength).map(categoryDonated => 
+                        <DonatedCard key={categoryDonated} categoryDonated={categoryDonated}></DonatedCard>)
                 }
             </div>
 

@@ -14,7 +14,7 @@ const DonationDetails = () => {
     const handleDonate = () =>{
         saveDonation(idInt);
         toast.success('You have donated successfully!!!', {
-            position: "top-right",
+            position: "top-center",
             theme: "colored"
         });
     }

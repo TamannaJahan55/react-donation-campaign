@@ -33,7 +33,8 @@ const router = createBrowserRouter([
       },
       {
         path: "/statistics",
-        element: <Pie_Chart></Pie_Chart>
+        element: <Pie_Chart></Pie_Chart>,
+        loader: () => fetch('donations.json')
       }
     ]
   },

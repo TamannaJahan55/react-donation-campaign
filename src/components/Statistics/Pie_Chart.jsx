@@ -1,48 +1,53 @@
-import {  useEffect, useState } from 'react';
-import { PieChart, Pie, ResponsiveContainer } from 'recharts';
+import { useEffect, useState} from 'react';
+import { PieChart, Pie, Cell, Tooltip, Legend } from 'recharts';
 import { getStoredDonation } from '../../Utility/localStorage';
+import { useLoaderData } from 'react-router-dom';
 
 const Pie_Chart = () => {
-    const totalDonations = 12;
-
-    const [donationCount, setDonationCount] = useState(0);
-
+    
+    const [donationCount, setDonationCount] = useState([])
     useEffect(() => {
         const storedDonationData = getStoredDonation() || [];
-        setDonationCount(storedDonationData.length);
-        console.log(storedDonationData.length)
+        const donationPercentage = storedDonationData.length / 12;
+        setDonationCount(donationPercentage);
+
     }
         , [])
 
-    const donationPercentage = ((donationCount / totalDonations) * 100);
-    console.log(donationPercentage)
+    const Donations = useLoaderData();
+    const totalDonation = Donations.length / 12;
 
-    const chartData = {
-        labels: ['Your Donation', 'Remaining'],
-        datasets: [
-            {
-                data: [donationPercentage, 100 - donationPercentage],
-                backgroundColor: ['#FF444A', '#00C49F'],
-            }
-        ]
-    }
+    const data = [
+        { name: 'Your Donation', value: donationCount},
+        { name: 'Total Donation', value: totalDonation - donationCount}
+    ];
+
+    const COLORS = ["#FF444A", "#00C49F"];
 
 
-    return (
-        <div>
+        return (
             <div>
-                <h2>Donation Pie-Chart</h2>
-            </div>
-            <ResponsiveContainer width="100%" height="100%">
-                <PieChart width={400} height={400}>
+                <div>
+                    <h2>Donation Pie-Chart</h2>
+                </div>
+                <PieChart width={1300} height={400} >
                     <Pie
-                        data={chartData}>
+                        data={data}
+                        cx="50%"
+                        cy="50%"
+                        labelLine={false}
+                        outerRadius={150}
+                        fill="#FF444A"
+                        dataKey="value"
+                        label>
+                    {data.map((entry, index) => <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />)}
                     </Pie>
+                    <Tooltip />
+                    <Legend />
                 </PieChart>
-            </ResponsiveContainer>
-        </div>
-    );
-};
+            </div>
+        );
+    };
 
 
 export default Pie_Chart;
