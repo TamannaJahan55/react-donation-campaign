@@ -17,7 +17,7 @@ const DonatedCard = ({ categoryDonated }) => {
                     <p className='text-lg font-semibold'>{title}</p>
                     <p className='text-lg font-semibold' style={{ color: color_for_text_and_button_bg }}>${price}.00</p>
                     <Link to={`/donationDetails/${id}`}>
-                        <button className='btn text-white rounded' style={{ backgroundColor: color_for_text_and_button_bg }}>View Details</button>
+                        <button className='btn text-white rounded normal-case' style={{ backgroundColor: color_for_text_and_button_bg }}>View Details</button>
                     </Link>
                 </div>
             </div>

@@ -9,8 +9,8 @@ import Root from './components/Root/Root';
 import ErrorPage from './components/ErrorPage/ErrorPage';
 import Home from './components/Home/Home';
 import Donation from './components/Donation/Donation';
-import Statistics from './components/Statistics/Statistics';
 import DonationDetails from './components/DonationDetails/DonationDetails';
+import Pie_Chart from './components/Statistics/Pie_Chart';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -22,18 +22,18 @@ const router = createBrowserRouter([
         element: <Home></Home>
       },
       {
-        path: "/statistics",
-        element: <Statistics></Statistics>
-      },
-      {
         path: "/donationDetails/:id",
         element: <DonationDetails></DonationDetails>,
-        loader: () => fetch('../public/donations.json')
+        loader: () => fetch('donations.json')
       },
       {
         path: "/donation",
         element: <Donation></Donation>,
-        loader: () => fetch('/donations.json')
+        loader: () => fetch('donations.json')
+      },
+      {
+        path: "/statistics",
+        element: <Pie_Chart></Pie_Chart>
       }
     ]
   },
