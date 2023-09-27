@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
-const Category = ({ categoryCard }) => {
+const Category = ({categoryCard}) => {
 
     const { id, picture, title, category, color_for_category_bg, color_for_card_bg, color_for_text_and_button_bg } = categoryCard;
 

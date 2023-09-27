@@ -3,6 +3,7 @@ import CategoryList from "../CategoryList/CategoryList";
 
 
 const Home = () => {
+
     return (
         <div>
             <Banner></Banner>
