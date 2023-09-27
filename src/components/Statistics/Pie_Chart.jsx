@@ -27,7 +27,7 @@ const Pie_Chart = () => {
 
     return (
             
-            <div>
+            <div className='max-w-7xl mx-16'>
                 <PieChart width={1300} height={500} >
                     <Pie
                         data={data}
